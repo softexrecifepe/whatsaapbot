@@ -7,9 +7,9 @@ export const port = 2222;
 app.use(express.json());
 
 create({
-  session: "zap",
-})
-  .then((client) => start(client))
-  .catch((erro) => {
-    console.error(erro);
-  });
+  session: "mySession",
+}).then((client) => start(client));
+
+app.listen(2222, () => {
+  console.log("Servidor rodando na porta 2222");
+});

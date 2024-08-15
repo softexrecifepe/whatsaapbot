@@ -1,6 +1,7 @@
 {
   "name": "whatsaapbot",
   "version": "1.0.0",
+  "type": "module",
   "description": "## 🎯 Propósito do Projeto",
   "main": "index.js",
   "scripts": {
