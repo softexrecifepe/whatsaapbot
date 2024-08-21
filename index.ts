@@ -1,6 +1,6 @@
 import express, { Request, Response } from "express";
 import { create, Whatsapp } from "venom-bot";
-import { greetingMessages } from "./utils/greetingMessage";
+import { greetingMessages } from "./src/templates/greetingMessage";
 
 const app = express();
 app.use(express.json());
