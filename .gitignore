@@ -2,3 +2,4 @@ node_modules
 tokens
 db/
 fapCredentials.json
+.env
