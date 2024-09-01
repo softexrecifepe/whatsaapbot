@@ -23,16 +23,17 @@ app.get('/get-inscriptions', (req, res) => {
             }
 
             // Função para limpar e formatar o número de telefone
-            const cleanPhoneNumber = (phone) => {
-                return phone
-                    .replace(/[^\d]/g, ''); // Remove tudo que não for dígito
+            const cleanPhoneNumber = (phone: string) => {
+                return phone.replace(/[^\d]/g, ''); // Remove tudo que não for dígito
             };
 
-            // Mapear dados com verificações para evitar erros
-            const names = jsonData.map(item => item.name || 'N/A');
-            const phones = jsonData.map(item => cleanPhoneNumber(item.phone_number || 'N/A'));
+            // Mapear dados para criar um array de objetos de estudantes
+            const students = jsonData.map(item => ({
+                name: item.name || 'N/A',
+                phone: cleanPhoneNumber(item.phone_number || 'N/A')
+            }));
 
-            res.json({ names, phones });
+            res.json(students);
         } catch (parseError) {
             res.status(500).json({ error: 'Failed to parse JSON' });
         }
