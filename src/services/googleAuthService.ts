@@ -1,14 +1,16 @@
 const { google } = require("googleapis");
+import dontenv from "dotenv";
+dontenv.config();
 
 export async function getAuthSheets() {
     const auth = new google.auth.GoogleAuth({
-        keyFile: "fapCredentials.json",
-        scopes: "https://www.googleapis.com/auth/spreadsheets",
+        keyFile: process.env.GOOGLE_FAP_CREDENTIALS_KEY_FILE,
+        scopes: process.env.GOOGLE_FAP_SCOPES_SHEETS_API,
     });
 
     const client = await auth.getClient();
     const googleSheets = google.sheets({ version: "v4", auth: client });
-    const spreadsheetsId = "1mf_urI5uGBkbCfMONjVofvhdkEFU4A-nn2JFNdWe58Q";
+    const spreadsheetsId = process.env.GOOGLE_SPREADSHEET_ID;
 
     return {
         auth,

@@ -1,9 +1,11 @@
 import { Request, Response } from 'express';
 import fs from 'fs';
 import path from 'path';
+import dotnenvt from 'dotenv';
+dotnenvt.config();
 
 export async function getInscriptions(req: Request, res: Response) {
-    const filePath = path.resolve(__dirname, '../../db/thunder-file_1de921ab.json');
+    const filePath = path.resolve(__dirname, process.env.FAPJSONPATH as string);
     //const filePath = path.join(__dirname, 'db', '../../db/thunder-file_1de921ab.json');
     //console.log("Tentando ler o arquivo em:", filePath);
 
