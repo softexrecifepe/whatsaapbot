@@ -1,7 +1,15 @@
+# Diretórios e arquivos comuns para ignorar
 /node_modules
-fapCredentials.json
 /db
 /tests
 /tokens
+
+# Arquivos de configuração e dados sensíveis
 env
 fapCredentials.json
+
+# Outros arquivos e diretórios que você pode querer ignorar
+*.log
+*.tmp
+*.swp
+.DS_Store
