@@ -1,9 +1,15 @@
 import { sendText } from "../utils/sendText";
+import { cleanPhoneNumber } from "../utils/cleanPhoneNumber";
 
-export function handleFaltas(userId: string) {
+export async function handleFaltas(userId: string) {
+  const phone = userId;
+  let phoneNumber = cleanPhoneNumber(phone);
+  console.log("Número de telefone limpo:", phoneNumber);
+
   sendText(
     userId,
     "🤖 *Verificação de faltas:*\n" +
-      "Para verificar suas faltas, forneça seu número de matrícula ou ID."
+      "Aguarde um momento enquanto verifico suas faltas..."
+    //phoneNumber
   );
 }
