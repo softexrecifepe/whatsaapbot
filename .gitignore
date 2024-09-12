@@ -4,7 +4,7 @@ db
 tokens
 
 # Arquivos de configuração e dados sensíveis
-.env
+env
 fapCredentials.json
 
 # Outros arquivos e diretórios que você pode querer ignorar
