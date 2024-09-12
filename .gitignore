@@ -4,6 +4,7 @@
 /tests
 /tokens
 /tests/fapCredentials.json
+tests/fapCredentials.json
 
 # Arquivos de configuração e dados sensíveis
 env
