@@ -2,8 +2,8 @@ import Routes from "express"
 const routes = Routes()
 
 //Controller functions
-import { getInscriptions } from "../controller/fapApiController"
-import { getSheetData } from "../controller/sheetsController"
+import { getInscriptions } from "../controllers/fapApiController"
+import { getSheetData } from "../controllers/sheetsController"
 
 //Routes
 routes.get('/inscriptions', getInscriptions)

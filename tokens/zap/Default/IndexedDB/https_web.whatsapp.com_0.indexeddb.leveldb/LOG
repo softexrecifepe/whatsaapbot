@@ -1,0 +1,17 @@
+2024/09/12-10:08:48.707 f34 Reusing MANIFEST C:\Users\Micro\Documents\Projetos\LAB\whatsaapbot\tokens\zap\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/12-10:08:48.707 f34 Recovering log #293
+2024/09/12-10:08:48.736 f34 Reusing old log C:\Users\Micro\Documents\Projetos\LAB\whatsaapbot\tokens\zap\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000293.log 
+2024/09/12-10:08:50.510 3e40 Level-0 table #300: started
+2024/09/12-10:08:50.527 3e40 Level-0 table #300: 701967 bytes OK
+2024/09/12-10:08:50.529 3e40 Delete type=0 #293
+2024/09/12-10:08:50.529 41ec Manual compaction at level-0 from '\x00d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00e\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/09/12-10:08:52.040 3eac Compacting 1@1 + 3@2 files
+2024/09/12-10:08:52.092 3eac Generated table #301@1: 47495 keys, 2199233 bytes
+2024/09/12-10:08:52.170 3eac Generated table #302@1: 45151 keys, 2205023 bytes
+2024/09/12-10:08:52.210 3eac Generated table #303@1: 33664 keys, 1646524 bytes
+2024/09/12-10:08:52.210 3eac Compacted 1@1 + 3@2 files => 6050780 bytes
+2024/09/12-10:08:52.211 3eac compacted to: files[ 0 0 3 0 0 0 0 ]
+2024/09/12-10:08:52.212 3eac Delete type=2 #295
+2024/09/12-10:08:52.212 3eac Delete type=2 #296
+2024/09/12-10:08:52.212 3eac Delete type=2 #297
+2024/09/12-10:08:52.212 3eac Delete type=2 #300

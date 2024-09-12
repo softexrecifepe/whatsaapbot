@@ -1,0 +1,17 @@
+2024/09/12-10:07:19.435 3080 Reusing MANIFEST C:\Users\Micro\Documents\Projetos\LAB\whatsaapbot\tokens\zap\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/12-10:07:19.436 3080 Recovering log #287
+2024/09/12-10:07:19.438 3080 Reusing old log C:\Users\Micro\Documents\Projetos\LAB\whatsaapbot\tokens\zap\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000287.log 
+2024/09/12-10:07:20.787 378 Level-0 table #294: started
+2024/09/12-10:07:20.791 378 Level-0 table #294: 85157 bytes OK
+2024/09/12-10:07:20.793 378 Delete type=0 #287
+2024/09/12-10:07:20.793 3080 Manual compaction at level-0 from '\x00c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00d\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/09/12-10:07:22.263 12c Compacting 1@1 + 3@2 files
+2024/09/12-10:07:22.310 12c Generated table #295@1: 46422 keys, 2197059 bytes
+2024/09/12-10:07:22.376 12c Generated table #296@1: 45988 keys, 2206910 bytes
+2024/09/12-10:07:22.413 12c Generated table #297@1: 32522 keys, 1575686 bytes
+2024/09/12-10:07:22.413 12c Compacted 1@1 + 3@2 files => 5979655 bytes
+2024/09/12-10:07:22.414 12c compacted to: files[ 0 0 3 0 0 0 0 ]
+2024/09/12-10:07:22.414 12c Delete type=2 #289
+2024/09/12-10:07:22.414 12c Delete type=2 #290
+2024/09/12-10:07:22.415 12c Delete type=2 #291
+2024/09/12-10:07:22.415 12c Delete type=2 #294
