@@ -1,13 +1,10 @@
 # Diretórios e arquivos comuns para ignorar
-/node_modules
-/db
-/tests
-/tokens
-/tests/fapCredentials.json
-tests/fapCredentials.json
+node_modules
+db
+tokens
 
 # Arquivos de configuração e dados sensíveis
-env
+.env
 fapCredentials.json
 
 # Outros arquivos e diretórios que você pode querer ignorar
