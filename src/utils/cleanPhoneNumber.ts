@@ -1,6 +1,6 @@
-export function cleanPhoneNumber(phone: string) {
-  if (phone.startsWith("55")) {
+export function cleanPhoneNumber(phone: string | any): string {
+  if (phone.startsWith("55") || phone.startsWith("81")) {
     phone = phone.substring(2);
-    return phone.replace(/[^\d]/g, ""); // Remove tudo que não for dígito
   }
+  return phone.replace(/[^\d]/g, "");
 }
